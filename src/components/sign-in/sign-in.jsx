@@ -42,7 +42,7 @@ class SignIn extends React.Component {
             value={this.state.email}
             label="email"
             handleChange={this.handleChange}
-            required
+            
           />
           <FormInput
             name="password"
@@ -50,7 +50,7 @@ class SignIn extends React.Component {
             value={this.state.password}
             label="password"
             handleChange={this.handleChange}
-            required
+            
           />
           <div className="buttons">
           <CustomButton type="submit"> Sign In </CustomButton>
